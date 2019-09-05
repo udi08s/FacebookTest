@@ -18,6 +18,7 @@ public class SignUpTest extends BaseTest{
 	private HomePage homePage;
 	private String firstName;
 	private String lastName;
+	private String password;
 	
 	
 	@Test
@@ -32,7 +33,7 @@ public class SignUpTest extends BaseTest{
 		
 		firstName=Utils.randomFirstName();
 		lastName=Utils.randomLastName();
-		
+		password="pass1234";
 		
 		landingPage.enterFirstName(firstName);
 		landingPage.enterLastName(lastName);
@@ -40,7 +41,7 @@ public class SignUpTest extends BaseTest{
 		landingPage.enterPhoneOrEmailID(emailId);
 		landingPage.reEnterPhoneOrEmailID(emailId);
 
-		landingPage.enterNewPassword("pass1234");
+		landingPage.enterNewPassword(password);
 		
 		landingPage.selectDay("2");
 		landingPage.selectMonths("Aug");
@@ -49,11 +50,7 @@ public class SignUpTest extends BaseTest{
 		landingPage.selectMaleGender();
 		
 		homePage=landingPage.clickSignUpBtn();
-		
-		Thread.sleep(25000);
-
-		
-
+						
 	}
 	
 
