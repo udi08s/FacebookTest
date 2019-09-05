@@ -1,0 +1,7 @@
+com/testingfoo/utils/Utils.class
+com/testingfoo/pages/Page.class
+com/testingfoo/tests/BaseTest.class
+com/testingfoo/pages/HomePage.class
+com/testingfoo/pages/BasePage.class
+com/testingfoo/pages/LandingPage.class
+com/testingfoo/tests/SignUpTest.class
