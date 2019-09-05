@@ -43,9 +43,7 @@ public class BaseTest {
 		}
 		
 		driver.get("https://www.facebook.com");
-		//driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS );
 		driver.manage().window().maximize();
-		
 		page = new BasePage(driver);
 		
 	}
