@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Flight Booking Suite" duration-ms="53252" started-at="2019-09-04T01:56:00Z" finished-at="2019-09-04T01:56:53Z">
+  <suite name="Facebook Testing Suite" duration-ms="24849" started-at="2019-09-05T14:35:05Z" finished-at="2019-09-05T14:35:30Z">
     <groups>
     </groups>
-    <test name="FlightBooking2" duration-ms="51953" started-at="2019-09-04T01:56:00Z" finished-at="2019-09-04T01:56:52Z">
+    <test name="SignUp-Test1" duration-ms="20619" started-at="2019-09-05T14:35:05Z" finished-at="2019-09-05T14:35:26Z">
       <class name="com.testingfoo.tests.SignUpTest">
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testingfoo.tests.SignUpTest@69c79f09]" name="setUpTest" is-config="true" duration-ms="16182" started-at="2019-09-04T01:56:00Z" finished-at="2019-09-04T01:56:16Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testingfoo.tests.SignUpTest@5241cf67]" name="setUpTest" is-config="true" duration-ms="13048" started-at="2019-09-05T14:35:05Z" finished-at="2019-09-05T14:35:18Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.testingfoo.tests.SignUpTest@69c79f09]" name="test" duration-ms="30983" started-at="2019-09-04T01:56:18Z" finished-at="2019-09-04T01:56:49Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testingfoo.tests.SignUpTest@5241cf67]" name="test" duration-ms="4749" started-at="2019-09-05T14:35:19Z" finished-at="2019-09-05T14:35:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingfoo.tests.SignUpTest@69c79f09]" name="tearDown" is-config="true" duration-ms="3316" started-at="2019-09-04T01:56:49Z" finished-at="2019-09-04T01:56:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingfoo.tests.SignUpTest@5241cf67]" name="tearDown" is-config="true" duration-ms="2015" started-at="2019-09-05T14:35:24Z" finished-at="2019-09-05T14:35:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testingfoo.tests.SignUpTest -->
-    </test> <!-- FlightBooking2 -->
-    <test name="FlightBooking" duration-ms="53252" started-at="2019-09-04T01:56:00Z" finished-at="2019-09-04T01:56:53Z">
+    </test> <!-- SignUp-Test1 -->
+    <test name="SignUp-Test2" duration-ms="24849" started-at="2019-09-05T14:35:05Z" finished-at="2019-09-05T14:35:30Z">
       <class name="com.testingfoo.tests.SignUpTest">
-        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testingfoo.tests.SignUpTest@625e134e]" name="setUpTest" is-config="true" duration-ms="24130" started-at="2019-09-04T01:56:00Z" finished-at="2019-09-04T01:56:24Z">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.testingfoo.tests.SignUpTest@4602c2a9]" name="setUpTest" is-config="true" duration-ms="21459" started-at="2019-09-05T14:35:05Z" finished-at="2019-09-05T14:35:27Z">
           <params>
             <param index="0">
               <value>
@@ -41,15 +41,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.testingfoo.tests.SignUpTest@625e134e]" name="test" duration-ms="28757" started-at="2019-09-04T01:56:24Z" finished-at="2019-09-04T01:56:53Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.testingfoo.tests.SignUpTest@4602c2a9]" name="test" duration-ms="3157" started-at="2019-09-05T14:35:27Z" finished-at="2019-09-05T14:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingfoo.tests.SignUpTest@625e134e]" name="tearDown" is-config="true" duration-ms="197" started-at="2019-09-04T01:56:53Z" finished-at="2019-09-04T01:56:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testingfoo.tests.SignUpTest@4602c2a9]" name="tearDown" is-config="true" duration-ms="149" started-at="2019-09-05T14:35:30Z" finished-at="2019-09-05T14:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testingfoo.tests.SignUpTest -->
-    </test> <!-- FlightBooking -->
-  </suite> <!-- Flight Booking Suite -->
+    </test> <!-- SignUp-Test2 -->
+  </suite> <!-- Facebook Testing Suite -->
 </testng-results>
