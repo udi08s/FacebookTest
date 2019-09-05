@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Facebook Testing Suite" thread-count="2" parallel="tests" verbose="3">
-  <test thread-count="5" name="SignUp-Test1" parallel="methods">
-   <parameter name="browser" value="chrome" />
-    <classes>
-     <class name="com.testingfoo.tests.SignUpTest"/> 
-    </classes>
-  </test> <!-- Test -->
-   <test thread-count="5" name="SignUp-Test2" parallel="methods">
+<test thread-count="5" name="SignUp-Test1" parallel="methods">
    <parameter name="browser" value="ff" />
     <classes>
      <class name="com.testingfoo.tests.SignUpTest"/> 
     </classes>
   </test> <!-- Test -->
-  
+   <test thread-count="5" name="SignUp-Test2" parallel="methods">
+   <parameter name="browser" value="chrome" />
+    <classes>
+     <class name="com.testingfoo.tests.SignUpTest"/> 
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -6,7 +6,7 @@ public class Utils {
 
 	private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 	private static final String[] firstName= {"Kevin","Steve","Mark","Adam","Eva","Sachin","Peter","Bruce","William","Charlie"};
-	private static final String[] lastName=  {"Smith","Johnson","Brown","King","Miller","Thomas","Sydney","White","Singh","Bell"};
+	private static final String[] lastName=  {"Smith","Johnson","Brown","Kingstone","Miller","Thomas","Sydney","White","Singh","Bell"};
 
 	public static String randomAlphaNumeric(int count) {
 		StringBuilder builder = new StringBuilder();
